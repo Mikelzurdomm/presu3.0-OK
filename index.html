@@ -49,6 +49,9 @@
     .cell-lightgreen {
       background: #e8f5e9;
     }
+    .cell-lightgrey {
+      background: #f3f3f3;
+    }
     input, select {
       width: 100%;
       box-sizing: border-box;
@@ -136,10 +139,11 @@
           <tr><td class="label-green">Consumo P5</td><td class="cell-lightgreen"><input id="consumo30_p5" type="number"></td></tr>
           <tr><td class="label-green">Consumo P6</td><td class="cell-lightgreen"><input id="consumo30_p6" type="number"></td></tr>
 
-          <tr><td class="label-green">Alquiler de equipos</td><td class="cell-lightgreen"><input id="alquiler30" type="number"></td></tr>
-          <tr><td class="label-grey">Bono social</td><td><input id="bono30" type="number" step="0.000001" value="0.012742"></td></tr>
-          <tr><td class="label-green">IVA</td><td class="cell-lightgreen"><input id="iva30" type="number" value="21"></td></tr>
-          <tr><td class="label-grey">Factura actual</td><td><input id="factura30" type="number"></td></tr>
+          <!-- Final con colores alternos -->
+          <tr><td class="label-grey">Alquiler de equipos</td><td class="cell-lightgrey"><input id="alquiler30" type="number"></td></tr>
+          <tr><td class="label-green">Bono social</td><td class="cell-lightgreen"><input id="bono30" type="number" step="0.000001" value="0.012742"></td></tr>
+          <tr><td class="label-grey">IVA</td><td class="cell-lightgrey"><input id="iva30" type="number" value="21"></td></tr>
+          <tr><td class="label-green">Factura actual</td><td class="cell-lightgreen"><input id="factura30" type="number"></td></tr>
         </table>
 
         <div class="total-section">
