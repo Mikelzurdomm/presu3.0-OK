@@ -1,0 +1,279 @@
+{
+  "2.0TD": [
+    {
+      "oferta": "(RESI) NATURGY",
+      "consumo": {
+        "P1": 0.119166,
+        "P2": 0.119166,
+        "P3": 0.119166
+      },
+      "potencia": {
+        "P1": 0.108163,
+        "P2": 0.033392
+      },
+      "beneficio_unico": 0,
+      "promocion": "huevos con patatas"
+    },
+    {
+      "oferta": "(RESI) ENDESA",
+      "consumo": {
+        "P1": 0.1236,
+        "P2": 0.1236,
+        "P3": 0.1236
+      },
+      "potencia": {
+        "P1": 0.112138,
+        "P2": 0.040267
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "2.0TD(PYME/RESI) GANA ENERGIA",
+      "consumo": {
+        "P1": 0.135,
+        "P2": 0.135,
+        "P3": 0.135
+      },
+      "potencia": {
+        "P1": 0.127406,
+        "P2": 0.049264
+      },
+      "beneficio_unico": 0,
+      "promocion": "5€ descuento para combustible en repsol con Waylet"
+    },
+    {
+      "oferta": "2.0TD(PYME/RESI) GANA Tramos",
+      "consumo": {
+        "P1": 0.184,
+        "P2": 0.121,
+        "P3": 0.097
+      },
+      "potencia": {
+        "P1": 0.1274,
+        "P2": 0.0493
+      },
+      "beneficio_unico": 0,
+      "promocion": "5€ descuento para combustible en repsol con Waylet"
+    },
+    {
+      "oferta": "2.0TD(index) GANA ENERGIA",
+      "consumo": {
+        "P1": 0.154,
+        "P2": 0.09,
+        "P3": 0.068
+      },
+      "potencia": {
+        "P1": 0.0738,
+        "P2": 0.0019
+      },
+      "beneficio_unico": 0.167,
+      "promocion": "5€ descuento para combustible en repsol con Waylet"
+    },
+    {
+      "oferta": "2.0TD(PYME) NATURGY",
+      "consumo": {
+        "P1": 0.134865,
+        "P2": 0.134865,
+        "P3": 0.134865
+      },
+      "potencia": {
+        "P1": 0.120853,
+        "P2": 0.0439
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "2.0TD(PYME) NATURGY supra",
+      "consumo": {
+        "P1": 0.142865,
+        "P2": 0.142865,
+        "P3": 0.142865
+      },
+      "potencia": {
+        "P1": 0.120853,
+        "P2": 0.0439
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "2.0TD(PYME) NATURGY one",
+      "consumo": {
+        "P1": 0.119365,
+        "P2": 0.119365,
+        "P3": 0.119365
+      },
+      "potencia": {
+        "P1": 0.120853,
+        "P2": 0.0439
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "2.0TD(PYME) ENDESA",
+      "consumo": {
+        "P1": 0.1236,
+        "P2": 0.1236,
+        "P3": 0.1236
+      },
+      "potencia": {
+        "P1": 0.112138,
+        "P2": 0.040267
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    }
+  ],
+  "3.0TD": [
+    {
+      "oferta": "3.0TD(PYME) INER fegasus boe",
+      "consumo": {
+        "P1": 0.1992,
+        "P2": 0.18752,
+        "P3": 0.16919,
+        "P4": 0.15896,
+        "P5": 0.14985,
+        "P6": 0.13971
+      },
+      "potencia": {
+        "P1": 0.04293,
+        "P2": 0.02608,
+        "P3": 0.01273,
+        "P4": 0.01132,
+        "P5": 0.00624,
+        "P6": 0.00424
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "3.0TD(PYME) INER fegasus i4",
+      "consumo": {
+        "P1": 0.1992,
+        "P2": 0.18752,
+        "P3": 0.16919,
+        "P4": 0.15896,
+        "P5": 0.14985,
+        "P6": 0.13971
+      },
+      "potencia": {
+        "P1": 0.053855,
+        "P2": 0.037008,
+        "P3": 0.023658,
+        "P4": 0.022248,
+        "P5": 0.017168,
+        "P6": 0.015168
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "3.0TD(PYME) NATURGY fijo",
+      "consumo": {
+        "P1": 0.1937,
+        "P2": 0.1679,
+        "P3": 0.1458,
+        "P4": 0.133099,
+        "P5": 0.126599,
+        "P6": 0.1189
+      },
+      "potencia": {
+        "P1": 0.055959,
+        "P2": 0.030187,
+        "P3": 0.013779,
+        "P4": 0.012187,
+        "P5": 0.008479,
+        "P6": 0.005817
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "3.0TD(PYME) NATURGY fijo supra",
+      "consumo": {
+        "P1": 0.2072,
+        "P2": 0.1814,
+        "P3": 0.1593,
+        "P4": 0.146599,
+        "P5": 0.140099,
+        "P6": 0.1324
+      },
+      "potencia": {
+        "P1": 0.055959,
+        "P2": 0.030187,
+        "P3": 0.013779,
+        "P4": 0.012187,
+        "P5": 0.008479,
+        "P6": 0.005817
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "3.0TD(PYME) NATURGY fijo one",
+      "consumo": {
+        "P1": 0.1882,
+        "P2": 0.1624,
+        "P3": 0.1403,
+        "P4": 0.127599,
+        "P5": 0.121099,
+        "P6": 0.1134
+      },
+      "potencia": {
+        "P1": 0.055959,
+        "P2": 0.030187,
+        "P3": 0.013779,
+        "P4": 0.012187,
+        "P5": 0.008479,
+        "P6": 0.005817
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "3.0TD(PYME) PLENITUDE",
+      "consumo": {
+        "P1": 0.215356,
+        "P2": 0.180757,
+        "P3": 0.161963,
+        "P4": 0.136975,
+        "P5": 0.113874,
+        "P6": 0.125592
+      },
+      "potencia": {
+        "P1": 0.053858,
+        "P2": 0.028086,
+        "P3": 0.022801,
+        "P4": 0.021209,
+        "P5": 0.020282,
+        "P6": 0.01762
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "3.0TD(PYME) PLENITUDE +",
+      "consumo": {
+        "P1": 0.225247,
+        "P2": 0.195129,
+        "P3": 0.168238,
+        "P4": 0.146266,
+        "P5": 0.129771,
+        "P6": 0.136605
+      },
+      "potencia": {
+        "P1": 0.056639,
+        "P2": 0.033648,
+        "P3": 0.022801,
+        "P4": 0.023999,
+        "P5": 0.025844,
+        "P6": 0.025962
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    }
+  ]
+}

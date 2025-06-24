@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>3.0TD Presupuestador</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background: #eaf4ec;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 6px;
+    }
+    .panel {
+      max-width: 860px;
+      margin: auto;
+      background: white;
+      border: 3px solid #2a6e36;
+      padding: 6px;
+    }
+    .header {
+      background: #2a6e36;
+      color: white;
+      text-align: center;
+      padding: 6px;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .contenido {
+      display: flex;
+      margin-top: 20px;
+      justify-content: space-between;
+    }
+    .tabla-datos {
+      border-collapse: collapse;
+      width: 50%;
+    }
+    .tabla-datos td, .tabla-datos th {
+      border: 1px solid #999;
+      padding: 8px;
+    }
+    .header-oferta {
+      background: #a5d6a7;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .cell-oferta {
+      background: #ffccbc;
+    }
+    .label-grey {
+      background: #e0e0e0;
+      font-weight: bold;
+    }
+    .label-green {
+      background: #a5d6a7;
+      font-weight: bold;
+    }
+    .cell-lightgreen {
+      background: #e8f5e9;
+    }
+    input, select {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 4px;
+      border: 1px solid #666;
+    }
+    .total-section {
+      width: 45%;
+      text-align: center;
+    }
+    .titulo-total {
+      background: #ffccbc;
+      color: #000;
+      font-weight: bold;
+      padding: 6px;
+      font-size: 14px;
+    }
+    .resultado {
+      margin-top: 10px;
+      background: #d4f7d4;
+      padding: 8px;
+      text-align: center;
+      border: 2px solid #2a6e36;
+      font-size: 14px;
+    }
+    .barras-container {
+      margin-top: 10px;
+      text-align: center;
+    }
+    .barras {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      height: 100px;
+      background: #f9f9f9;
+      border: 1px solid #ccc;
+      margin: 0 auto;
+      max-width: 200px;
+    }
+    .barra {
+      width: 60px;
+      transition: height 0.6s ease;
+    }
+    .barra-actual {
+      background-color: #ffcccb;
+    }
+    .barra-nueva {
+      background-color: #4caf50;
+    }
+    .label-barras {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5px;
+    }
+    .label-barras span {
+      width: 60px;
+      text-align: center;
+      font-size: 14px;
+      color: #2a6e36;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <div class="header">3.0TD</div>
+    <div class="contenido">
+      <table class="tabla-datos">
+        <tr><th class="header-oferta">OFERTA</th><td class="cell-oferta"><select id="oferta_30td"></select></td></tr>
+        <tr><td class="label-green">Días</td><td class="cell-lightgreen"><input id="dias30" type="number"></td></tr>
+<tr><td class="label-grey">Potencia P1</td><td><input id="potencia30_p1" type="number"></td></tr>
+<tr><td class="label-green">Potencia P2</td><td><input id="potencia30_p2" type="number"></td></tr>
+<tr><td class="label-grey">Potencia P3</td><td><input id="potencia30_p3" type="number"></td></tr>
+<tr><td class="label-green">Potencia P4</td><td><input id="potencia30_p4" type="number"></td></tr>
+<tr><td class="label-grey">Potencia P5</td><td><input id="potencia30_p5" type="number"></td></tr>
+<tr><td class="label-green">Potencia P6</td><td><input id="potencia30_p6" type="number"></td></tr>
+<tr><td class="label-grey">Consumo P1</td><td><input id="consumo30_p1" type="number"></td></tr>
+<tr><td class="label-green">Consumo P2</td><td><input id="consumo30_p2" type="number"></td></tr>
+<tr><td class="label-grey">Consumo P3</td><td><input id="consumo30_p3" type="number"></td></tr>
+<tr><td class="label-green">Consumo P4</td><td><input id="consumo30_p4" type="number"></td></tr>
+<tr><td class="label-grey">Consumo P5</td><td><input id="consumo30_p5" type="number"></td></tr>
+<tr><td class="label-green">Consumo P6</td><td><input id="consumo30_p6" type="number"></td></tr>
+        <tr><td class="label-grey">Alquiler de equipos</td><td class="cell-lightgreen"><input id="alquiler30" type="number"></td></tr>
+        <tr><td class="label-green">Bono social</td><td class="cell-lightgreen"><input id="bono30" type="number" step="0.000001" value="0.012742"></td></tr>
+        <tr><td class="label-grey">IVA</td><td class="cell-lightgreen"><input id="iva30" type="number" value="21"></td></tr>
+        <tr><td class="label-green">Factura actual</td><td><input id="factura30" type="number"></td></tr>
+      </table>
+      <div class="total-section">
+        <div class="titulo-total">TOTAL</div>
+        <div class="resultado" id="resultado_30td"></div>
+        <div class="barras-container">
+          <div class="barras">
+            <div id="barra-actual-30" class="barra barra-actual" style="height: 0%;"></div>
+            <div id="barra-nueva-30" class="barra barra-nueva" style="height: 0%;"></div>
+          </div>
+          <div class="label-barras">
+            <span>Actual</span><span>Nueva</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
