@@ -4,13 +4,6 @@ async function loadTarifas() {
   const res = await fetch("tarifas_por_tipo.json");
   tarifas = await res.json();
   tarifas["2.0TD"].forEach((t, i) =>
-    document.getElementById("oferta_20td")?.add(new Option(t.oferta, i));
-
-  tarifas["3.0TD"].forEach((t, i) =>
-    document.getElementById("oferta_30td")?.add(new Option(t.oferta, i))
-  );
-
-  
     document.getElementById("oferta_20td").add(new Option(t.oferta, i))
   );
 }
