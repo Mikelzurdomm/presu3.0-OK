@@ -1,0 +1,9 @@
+{
+  "3.0TD": [{
+    "oferta": "3.0TD(PYME) NATURGY fijo",
+    "consumo": {"P1": 0.1937, "P2": 0.1679, "P3": 0.1458, "P4": 0.1331, "P5": 0.1266, "P6": 0.1189},
+    "potencia": {"P1": 0.0559, "P2": 0.0302, "P3": 0.0138, "P4": 0.0122, "P5": 0.0085, "P6": 0.0058},
+    "beneficio_unico": 0,
+    "promocion": "Descuento exclusivo"
+  }]
+}
