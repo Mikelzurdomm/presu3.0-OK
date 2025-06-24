@@ -1,9 +1,130 @@
 {
-  "3.0TD": [{
-    "oferta": "3.0TD(PYME) NATURGY fijo",
-    "consumo": {"P1": 0.1937, "P2": 0.1679, "P3": 0.1458, "P4": 0.1331, "P5": 0.1266, "P6": 0.1189},
-    "potencia": {"P1": 0.0559, "P2": 0.0302, "P3": 0.0138, "P4": 0.0122, "P5": 0.0085, "P6": 0.0058},
-    "beneficio_unico": 0,
-    "promocion": "Descuento exclusivo"
-  }]
+  "2.0TD": [
+    {
+      "oferta": "(RESI) NATURGY",
+      "consumo": {
+        "P1": 0.119166,
+        "P2": 0.119166,
+        "P3": 0.119166
+      },
+      "potencia": {
+        "P1": 0.108163,
+        "P2": 0.033392
+      },
+      "beneficio_unico": 0,
+      "promocion": "huevos con patatas"
+    },
+    {
+      "oferta": "(RESI) ENDESA",
+      "consumo": {
+        "P1": 0.1236,
+        "P2": 0.1236,
+        "P3": 0.1236
+      },
+      "potencia": {
+        "P1": 0.112138,
+        "P2": 0.040267
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "2.0TD(PYME/RESI) GANA ENERGIA",
+      "consumo": {
+        "P1": 0.135,
+        "P2": 0.135,
+        "P3": 0.135
+      },
+      "potencia": {
+        "P1": 0.127406,
+        "P2": 0.049264
+      },
+      "beneficio_unico": 0,
+      "promocion": "5€ descuento para combustible en repsol con Waylet"
+    },
+    {
+      "oferta": "2.0TD(PYME/RESI) GANA Tramos",
+      "consumo": {
+        "P1": 0.184,
+        "P2": 0.121,
+        "P3": 0.097
+      },
+      "potencia": {
+        "P1": 0.1274,
+        "P2": 0.0493
+      },
+      "beneficio_unico": 0,
+      "promocion": "5€ descuento para combustible en repsol con Waylet"
+    },
+    {
+      "oferta": "2.0TD(index) GANA ENERGIA",
+      "consumo": {
+        "P1": 0.154,
+        "P2": 0.09,
+        "P3": 0.068
+      },
+      "potencia": {
+        "P1": 0.0738,
+        "P2": 0.0019
+      },
+      "beneficio_unico": 0.167,
+      "promocion": "5€ descuento para combustible en repsol con Waylet"
+    },
+    {
+      "oferta": "2.0TD(PYME) NATURGY",
+      "consumo": {
+        "P1": 0.134865,
+        "P2": 0.134865,
+        "P3": 0.134865
+      },
+      "potencia": {
+        "P1": 0.120853,
+        "P2": 0.0439
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "2.0TD(PYME) NATURGY supra",
+      "consumo": {
+        "P1": 0.142865,
+        "P2": 0.142865,
+        "P3": 0.142865
+      },
+      "potencia": {
+        "P1": 0.120853,
+        "P2": 0.0439
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "2.0TD(PYME) NATURGY one",
+      "consumo": {
+        "P1": 0.119365,
+        "P2": 0.119365,
+        "P3": 0.119365
+      },
+      "potencia": {
+        "P1": 0.120853,
+        "P2": 0.0439
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    },
+    {
+      "oferta": "2.0TD(PYME) ENDESA",
+      "consumo": {
+        "P1": 0.1236,
+        "P2": 0.1236,
+        "P3": 0.1236
+      },
+      "potencia": {
+        "P1": 0.112138,
+        "P2": 0.040267
+      },
+      "beneficio_unico": 0,
+      "promocion": ""
+    }
+  ]
 }
