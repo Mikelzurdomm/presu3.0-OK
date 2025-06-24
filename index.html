@@ -17,14 +17,6 @@
       border: 3px solid #2a6e36;
       padding: 6px;
     }
-    .header {
-      background: #2a6e36;
-      color: white;
-      text-align: center;
-      padding: 6px;
-      font-size: 32px;
-      font-weight: bold;
-    }
     .contenido {
       display: flex;
       margin-top: 30px;
@@ -126,16 +118,30 @@
       <div class="contenido">
         <table class="tabla-datos">
           <tr><th class="header-oferta">OFERTA</th><td class="cell-oferta"><select id="oferta_30td"></select></td></tr>
-          <tr><td class="label-green">Días</td><td class="cell-lightgreen"><input id="dias30" type="number"></td></tr><tr><td class="label-grey">Potencia P1</td><td><input id="potencia30_p1" type="number"></td></tr><tr><td class="label-green">Consumo P1</td><td class="cell-lightgreen"><input id="consumo30_p1" type="number"></td></tr>
-<tr><td class="label-grey">Potencia P2</td><td><input id="potencia30_p2" type="number"></td></tr><tr><td class="label-green">Consumo P2</td><td class="cell-lightgreen"><input id="consumo30_p2" type="number"></td></tr>
-<tr><td class="label-grey">Potencia P3</td><td><input id="potencia30_p3" type="number"></td></tr><tr><td class="label-green">Consumo P3</td><td class="cell-lightgreen"><input id="consumo30_p3" type="number"></td></tr>
-<tr><td class="label-grey">Potencia P4</td><td><input id="potencia30_p4" type="number"></td></tr><tr><td class="label-green">Consumo P4</td><td class="cell-lightgreen"><input id="consumo30_p4" type="number"></td></tr>
-<tr><td class="label-grey">Potencia P5</td><td><input id="potencia30_p5" type="number"></td></tr><tr><td class="label-green">Consumo P5</td><td class="cell-lightgreen"><input id="consumo30_p5" type="number"></td></tr>
-<tr><td class="label-grey">Potencia P6</td><td><input id="potencia30_p6" type="number"></td></tr><tr><td class="label-green">Consumo P6</td><td class="cell-lightgreen"><input id="consumo30_p6" type="number"></td></tr><tr><td class="label-green">Alquiler de equipos</td><td class="cell-lightgreen"><input id="alquiler30" type="number"></td></tr>
+          <tr><td class="label-green">Días</td><td class="cell-lightgreen"><input id="dias30" type="number"></td></tr>
+
+          <!-- Potencias -->
+          <tr><td class="label-grey">Potencia P1</td><td><input id="potencia30_p1" type="number"></td></tr>
+          <tr><td class="label-grey">Potencia P2</td><td><input id="potencia30_p2" type="number"></td></tr>
+          <tr><td class="label-grey">Potencia P3</td><td><input id="potencia30_p3" type="number"></td></tr>
+          <tr><td class="label-grey">Potencia P4</td><td><input id="potencia30_p4" type="number"></td></tr>
+          <tr><td class="label-grey">Potencia P5</td><td><input id="potencia30_p5" type="number"></td></tr>
+          <tr><td class="label-grey">Potencia P6</td><td><input id="potencia30_p6" type="number"></td></tr>
+
+          <!-- Consumos -->
+          <tr><td class="label-green">Consumo P1</td><td class="cell-lightgreen"><input id="consumo30_p1" type="number"></td></tr>
+          <tr><td class="label-green">Consumo P2</td><td class="cell-lightgreen"><input id="consumo30_p2" type="number"></td></tr>
+          <tr><td class="label-green">Consumo P3</td><td class="cell-lightgreen"><input id="consumo30_p3" type="number"></td></tr>
+          <tr><td class="label-green">Consumo P4</td><td class="cell-lightgreen"><input id="consumo30_p4" type="number"></td></tr>
+          <tr><td class="label-green">Consumo P5</td><td class="cell-lightgreen"><input id="consumo30_p5" type="number"></td></tr>
+          <tr><td class="label-green">Consumo P6</td><td class="cell-lightgreen"><input id="consumo30_p6" type="number"></td></tr>
+
+          <tr><td class="label-green">Alquiler de equipos</td><td class="cell-lightgreen"><input id="alquiler30" type="number"></td></tr>
           <tr><td class="label-grey">Bono social</td><td><input id="bono30" type="number" step="0.000001" value="0.012742"></td></tr>
           <tr><td class="label-green">IVA</td><td class="cell-lightgreen"><input id="iva30" type="number" value="21"></td></tr>
           <tr><td class="label-grey">Factura actual</td><td><input id="factura30" type="number"></td></tr>
         </table>
+
         <div class="total-section">
           <div class="titulo-total">TOTAL</div>
           <div class="resultado" id="resultado_30td"></div>
